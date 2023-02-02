@@ -3,14 +3,10 @@ public void setup(){
   size(500, 500);
 }
 int val = 500;
-int leg = 20;
 public void draw(){
   background(0);
   noFill();
   sierpinski(0, 490, val);
-}
-public void mouseClicked(){ //optional
- leg = (int)(Math.random()*10)+20;
 }
 public void mouseDragged(){
   val = val + 2;
