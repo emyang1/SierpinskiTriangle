@@ -1,9 +1,6 @@
-public void settings() {
-    size(500, 500);
-}
 
 public void setup(){
-    //empty!
+  size(500, 500);
 }
 int val = 500;
 int leg = 20;
